@@ -13,9 +13,11 @@ O.     O  OooOO'   OOoOooO ooOOoOo O     `o        `oooO'  `OoO' o' `OoO'  o   O
 
 ```
 
-**Room Manager** — PoC
+**Room Manager** — Proof of Concept
 
-Made for showing of skills to  🧬  **ADLIN Science** team 👀
+Made for showing of skills to  🧬  **ADLIN Science** team   👀
+
+---
 
 # Quick start with ⚙️ Make + 🐳 Docker Compose
 
@@ -25,26 +27,23 @@ Made for showing of skills to  🧬  **ADLIN Science** team 👀
 - **Linux** with Docker engine installed
 - **Windows**: **`make`** should work with WSL / MinGW / … (**untested**)
 
-> **Warning**
-> 🚨  The newest `docker compose` (**without hyphen**) command is used in Make files,  
-> NOT `docker-compose`.
-
 ## 🏁  Start command
 
 ```shell
-# 1. Working directory: repository root
+# 1. Bootstrap project
+# (Working directory: repository root)
 # -------------------------------------
 make configure
 make start
 
 
-# 2. Private back office
+# 2. Access private back office
 # Credentials: `admin` / `password`
 # -------------------------------------
 open http://localhost:9870
 
 
-# 3. Public front end
+# 3. Access public front end
 # -------------------------------------
 open http://localhost:3045
 
@@ -52,13 +51,35 @@ open http://localhost:3045
 # That's all folks, …enjoy!
 ```
 
-## ❓  Project insights
+# 🧪  Live demo
+
+## Private back office
+
+[Foo](http://foo)
+
+> **Note**  
+> Credentials: `admin` / `password`.
+
+## Public front end
+
+[Bar](http://bar)
+
+# ❓  Project insights
 
 [Paper CMS](https://github.com/JulianCataldo/paper-cms) is used for Back office + API server.
 
-Nuxt 2 is used for the front-end.
+Nuxt 2 is used for the front-end with:
+
+- TypeScript
+- Vuetify
+- Toolings
 
 ---
 
-> **Note**
-> This is a simple PoC, so no tests, no CI / CD, no deployments targets etc.
+> **Note**  
+> This is a simple PoC, so no tests, no CI / CD, no deployments targets etc.  
+> Still, as it's already dockerized, it's easy to adapt it for any environment.
+
+---
+
+© 2022 — [Julian Cataldo](https://www.juliancataldo.com)
