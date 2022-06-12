@@ -1,2 +1,8 @@
-cms/*
+cms/paper-cms
+cms/.data
+
+.old/*
 .DS_Store
+
+**/.env*
+!**/.env.local
