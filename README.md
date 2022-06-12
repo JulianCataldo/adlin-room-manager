@@ -40,12 +40,12 @@ make start
 # 2. Access private back office
 # Credentials: `admin` / `password`
 # -------------------------------------
-open http://localhost:9870
+open http://localhost:7277
 
 
 # 3. Access public front end
 # -------------------------------------
-open http://localhost:3045
+open http://localhost:3055
 
 
 # That's all folks, …enjoy!
@@ -55,14 +55,16 @@ open http://localhost:3045
 
 ## Private back office
 
-[Foo](http://foo)
+> 💈  **[https://adlin-back.jc0.eu](https://adlin-back.jc0.eu)**
+
+---
 
 > **Note**  
 > Credentials: `admin` / `password`.
 
 ## Public front end
 
-[Bar](http://bar)
+> 🛎  **[https://adlin-front.jc0.eu](https://adlin-front.jc0.eu)**
 
 # ❓  Project insights
 
@@ -76,7 +78,7 @@ Nuxt 2 is used for the front-end with:
 
 ---
 
-> **Note**  
+> **Warning**  
 > This is a simple PoC, so no tests, no CI / CD, no deployments targets etc.  
 > Still, as it's already dockerized, it's easy to adapt it for any environment.
 
