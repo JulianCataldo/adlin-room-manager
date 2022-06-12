@@ -1,10 +1,14 @@
 import colors from 'vuetify/es5/util/colors'
 
-export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+console.log({ CMS: process.env.PRIVATE_CMS });
 
+export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  server: {
+    host: '0',
+    port: 3045,
+  },
+
   head: {
     titleTemplate: '%s - @adlin/front',
     title: '@adlin/front',
