@@ -1,5 +1,4 @@
 ENV ?= local
-
 include ./.env.$(ENV)
 
 configure:

@@ -1,6 +1,6 @@
 configure:
-	cd cms && make configure
+	cd ./cms && make configure
 
-run:
-	cd cms && make run
-	cd front && make recreate
+local:
+	cd ./cms && make run & \
+	cd ./front/docker && make recreate

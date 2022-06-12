@@ -34,7 +34,7 @@ Made for showing of skills to  🧬  **ADLIN Science** team   👀
 # (Working directory: repository root)
 # -------------------------------------
 make configure
-make start
+make local
 
 
 # 2. Access private back office
