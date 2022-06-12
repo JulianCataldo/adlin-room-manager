@@ -68,6 +68,44 @@ open http://localhost:3055
 
 # ❓  Project insights
 
+## Architecture
+
+```mermaid
+
+graph LR
+
+    Usr((User))
+    Ed((Editor))
+
+
+    subgraph fo [- Public app / Nuxt -]
+      Fo(Front end)
+      FoA{API}
+    end
+
+    subgraph bo [- Private CMS / Paper  -]
+      Bo(Back office)
+      BoA{API}
+    end
+
+
+    Fo -- show --> Usr
+    Bo -- show --> Ed
+
+    BoA -- fetch --> Ed
+    Ed -- post ---> BoA
+
+    Usr -- post --> FoA
+
+    FoA -- post --> BoA
+    BoA -- fetch --> FoA
+
+    FoA -- fetch --> Fo
+
+```
+
+---
+
 [Paper CMS](https://github.com/JulianCataldo/paper-cms) is used for Back office + API server.
 
 Nuxt 2 is used for the front-end with:
@@ -85,3 +123,5 @@ Nuxt 2 is used for the front-end with:
 ---
 
 © 2022 — [Julian Cataldo](https://www.juliancataldo.com)
+
+---
