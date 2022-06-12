@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  adlin-room-manager-front:
+    # env_file: .env
+    environment:
+      PRIVATE_CMS: 'http://paper-cms:7777'
+      # FOR LOCAL TESTING PURPOSE ONLY
+      PRIVATE_CMS_TOKEN: $PRIVATE_CMS_TOKEN
+    build:
+      context: ../../
+      dockerfile: ./front/docker/Dockerfile
+
+    ports:
+      - 127.0.0.1:${FRONT_LOCAL_PORT:-3055}:3045
+    networks:
+      - paper-cms_private
+
+
+networks:
+  paper-cms_private:
+    external: true
