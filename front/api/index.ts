@@ -14,7 +14,7 @@ async function fetch(apiPath: string) {
     .catch((e) => console.log(e))
     .then((response) => {
       if (response) {
-        console.log('data found');
+        console.log('data found: ', response.data);
         return response.data;
       }
       console.log('no data found !');
@@ -24,12 +24,12 @@ async function fetch(apiPath: string) {
 }
 
 app.use(express.json());
-app.all('/', async function api(req, res) {
+app.all('/*', async function api(req, res) {
   console.log(req.path);
 
-  const data = await fetch('v1/SocialMediaPosting');
+  const data = await fetch(req.path);
 
-  res.json({ data });
+  res.json(data);
 });
 
 export default app;

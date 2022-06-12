@@ -84,11 +84,11 @@
 export default {
   name: 'IndexPage',
 
-  async asyncData({ $fetch }) {
-    const rooms = await $fetch('v1/SocialMediaPosting');
-    console.log(rooms);
+  // async asyncData({ $fetch }) {
+  //   const rooms = await $fetch('v1/SocialMediaPosting');
+  //   console.log(rooms);
 
-    return { rooms };
-  },
+  //   return { rooms };
+  // },
 };
 </script>
