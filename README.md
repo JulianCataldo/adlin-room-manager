@@ -29,6 +29,8 @@ Made for showing of skills to  🧬  **ADLIN Science** team   👀
 - [ℹ️  Project insights](#ℹ️project-insights)
   - [Architecture](#architecture)
   - [Application preview (videos)](#application-preview-videos)
+    - [Back office](#back-office)
+    - [Front end](#front-end)
 
 ---
 
@@ -151,6 +153,16 @@ Nuxt 2 is used for the front-end with:
 > **Warning**  
 > This is a simple PoC, so no tests, no CI / CD, no deployments targets etc.  
 > Still, as it's already dockerized, it's easy to adapt it for any environment.
+
+## Application preview (videos)
+
+### Back office
+
+https://user-images.githubusercontent.com/603498/173315310-010e4f9a-5952-4e88-8148-4b8fd83704f2.mp4
+
+### Front end
+
+https://user-images.githubusercontent.com/603498/173317547-18119fae-fcb4-4f51-ac37-de20664fa803.mp4
 
 ---
 
