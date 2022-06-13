@@ -12,10 +12,9 @@ services:
       dockerfile: ./front/docker/Dockerfile
 
     ports:
-      - 127.0.0.1:${FRONT_LOCAL_PORT:-3055}:3045
+      - 127.0.0.1:${FRONT_LOCAL_PORT:-3045}:3045
     networks:
       - paper-cms_private
-
 
 networks:
   paper-cms_private:
