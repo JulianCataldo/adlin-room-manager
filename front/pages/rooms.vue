@@ -87,7 +87,14 @@ interface RoomFromApi extends Room {
     const rooms: RoomFromApi[] = await $cms(req, 'v1/Room');
     console.log({ rooms });
 
-    return { rooms };
+    return {
+      rooms: rooms.sort((p, n) => {
+        if (p?._meta?.created && n?._meta?.created) {
+          return p?._meta?.created < n?._meta?.created ? 1 : -1;
+        }
+        return 1;
+      }),
+    };
   },
 })
 export default class RoomsPage extends Vue {
