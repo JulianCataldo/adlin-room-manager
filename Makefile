@@ -1,6 +1,12 @@
 configure:
 	cd ./cms && make configure
 
+.PHONY: cms front
+cms:
+	cd ./cms && make run
+front:
+	sleep 4 && cd ./front/docker && make recreate
+
 local:
-	cd ./cms && make run & \
-	cd ./front/docker && make recreate
+	@echo Local…
+	make cms & make front
