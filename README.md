@@ -30,9 +30,12 @@ Made for showing of skills to  🧬  **ADLIN Science** team   👀
 ## 🏁  Start command
 
 ```shell
+git clone https://github.com/JulianCataldo/adlin-room-manager.git
+
 # 1. Bootstrap project
 # (Working directory: repository root)
 # -------------------------------------
+
 make configure
 make local
 
@@ -55,7 +58,8 @@ open http://localhost:3055
 
 > **Note**  
 > For TypeScript, linting tools, etc. to work properly, you **MUST** open a
-> **workbench** with the **`./front`** directory as root.
+> **workbench** with the **`./front`** directory as root.  
+> **Yarn** is used.
 
 👀  Interesting files to lurk :
 
