@@ -1,16 +1,24 @@
 import express from 'express';
-import axios from 'axios';
+import axios, { Method } from 'axios';
 
 const app = express();
 
-async function fetch(apiPath: string) {
-  console.log(`fetching ${apiPath}…`);
+async function cms(
+  apiPath: string,
+  method: Method,
+  body: null | object = null,
+) {
+  console.log(`Accessing cms ${apiPath}…`);
 
   const url = new URL(apiPath, process.env.PRIVATE_CMS).toString();
   const Authorization = `Bearer ${process.env.PRIVATE_CMS_TOKEN}`;
 
-  const data = await axios
-    .get(url, { headers: { Authorization } })
+  const data = await axios({
+    url,
+    method,
+    headers: { Authorization },
+    data: body,
+  })
     .catch((e) => console.log(e))
     .then((response) => {
       if (response) {
@@ -27,7 +35,7 @@ app.use(express.json());
 app.all('/*', async function api(req, res) {
   console.log(req.path);
 
-  const data = await fetch(req.path);
+  const data = await cms(req.path, <Method>req.method, req?.body);
 
   res.json(data);
 });
