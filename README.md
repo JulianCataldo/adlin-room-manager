@@ -63,11 +63,11 @@ open http://localhost:3055
 
 👀  Interesting files to lurk :
 
-- ./cms/paper-cms/models/api-v1.yaml
-- ./front/api/index.ts
-- ./front/plugin/cms.ts
-- ./front/pages/rooms.vue
-- ./front/docker/\*
+- `./cms/paper-cms/models/api-v1.yaml`
+- `./front/api/index.ts`
+- `./front/plugin/cms.ts`
+- `./front/pages/rooms.vue`
+- `./front/docker/\*`
 
 # 🧪  Live demo
 
