@@ -15,7 +15,17 @@
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
-    "types": ["@nuxt/types", "@nuxtjs/axios", "@types/node"]
+    // this fixes a lint bug with Vue TS
+    "jsx": "preserve",
+
+    "types": [
+      "@nuxt/types",
+      "@nuxtjs/axios",
+      "@types/node",
+
+      // this also fixes a weird bug with Vue TS (class component)
+      "@types/react"
+    ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }
