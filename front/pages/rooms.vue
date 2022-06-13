@@ -79,16 +79,19 @@ import { Vue, Component } from 'vue-property-decorator';
 import type { Context } from '@nuxt/types';
 import type { Room } from '~/../cms/paper-cms/models/types';
 
+interface RoomFromApi extends Room {
+  _id: string;
+}
 @Component({
   async asyncData({ req, $cms }: Context) {
-    const rooms: Room[] = await $cms(req, 'v1/Room');
+    const rooms: RoomFromApi[] = await $cms(req, 'v1/Room');
     console.log({ rooms });
 
     return { rooms };
   },
 })
 export default class RoomsPage extends Vue {
-  rooms: Room[] = [];
+  rooms: RoomFromApi[] = [];
 
   dialog: boolean = false;
 
@@ -103,7 +106,7 @@ export default class RoomsPage extends Vue {
         // We don't want to reassign entry internal ID
         _id: undefined,
       })
-      .then(({ data }: { data: Room[] }) => {
+      .then(({ data }: { data: RoomFromApi[] }) => {
         console.log({ data });
         this.dialog = true;
         this.rooms[index]['x-rented'] = true;
