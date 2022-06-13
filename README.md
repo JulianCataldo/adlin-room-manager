@@ -51,9 +51,23 @@ open http://localhost:3055
 # That's all folks, …enjoy!
 ```
 
+## Developer onboarding
+
+> **Note**  
+> For TypeScript, linting tools, etc. to work properly, you **MUST** open a
+> **workbench** with the **`./front`** directory as root.
+
+👀  Interesting files to lurk :
+
+- ./cms/paper-cms/models/api-v1.yaml
+- ./front/api/index.ts
+- ./front/plugin/cms.ts
+- ./front/pages/rooms.vue
+- ./front/docker/\*
+
 # 🧪  Live demo
 
-## Private back office
+## Private CMS back office
 
 > 💈  **[https://adlin-back.jc0.eu](https://adlin-back.jc0.eu)**
 
@@ -62,11 +76,11 @@ open http://localhost:3055
 > **Note**  
 > Credentials: `admin` / `password`.
 
-## Public front end
+## Public app front end
 
 > 🛎  **[https://adlin-front.jc0.eu](https://adlin-front.jc0.eu)**
 
-# ❓  Project insights
+# ℹ️  Project insights
 
 ## Architecture
 
@@ -113,6 +127,7 @@ Nuxt 2 is used for the front-end with:
 - TypeScript
 - Vuetify
 - Toolings
+- …
 
 ---
 
@@ -123,5 +138,3 @@ Nuxt 2 is used for the front-end with:
 ---
 
 © 2022 — [Julian Cataldo](https://www.juliancataldo.com)
-
----
