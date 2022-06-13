@@ -48,7 +48,7 @@ open http://localhost:7277
 
 # 3. Access public front end
 # -------------------------------------
-open http://localhost:3055
+open http://localhost:3045
 
 
 # That's all folks, …enjoy!
