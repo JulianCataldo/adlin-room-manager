@@ -2,79 +2,68 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <v-card class="logo py-4 d-flex justify-center">
-        <NuxtLogo />
-        <VuetifyLogo />
+        <img :src="require(`~/assets/logo.png`)" />
       </v-card>
       <v-card>
         <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+          ADLIN Science — Room Manager
         </v-card-title>
         <v-card-text>
           <p>
-            Vuetify is a progressive Material Design component framework for
-            Vue.js. It was designed to empower developers to create amazing
-            applications.
-          </p>
-          <p>
-            For more information on Vuetify, check out the
             <a
-              href="https://vuetifyjs.com"
+              href="https://github.com/JulianCataldo/paper-cms"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="CMS"
+              >Paper CMS</a
+            >
+            is used for Back office + API server. <br />
+            Nuxt 2 is used for the front-end with:
+          </p>
+          <ul class="pb-4">
+            <li>TypeScript</li>
+            <li>Vuetify</li>
+            <li>Toolings</li>
+            <li>…</li>
+          </ul>
+          <p>
+            For more information on
+            <strong>ADLIN Science — Room Manager</strong>, check out the
+            <a
+              href="https://github.com/JulianCataldo/adlin-room-manager"
               target="_blank"
               rel="noopener noreferrer"
             >
-              documentation </a
-            >.
+              documentation
+            </a>
+            on GitHub.
           </p>
           <p>
-            If you have questions, please join the official
+            If you have questions, don't hesitate to contact me
             <a
-              href="https://chat.vuetifyjs.com/"
+              href="https://www.juliancataldo.com/"
               target="_blank"
               rel="noopener noreferrer"
               title="chat"
             >
-              discord </a
+              on my website</a
             >.
           </p>
-          <p>
-            Find a bug? Report it on the github
-            <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="contribute"
-            >
-              issue board </a
-            >.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
-          </p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
+
+          <div class="text-right">
+            <em><small>&mdash; Julian Cataldo</small></em>
           </div>
           <hr class="my-3" />
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt Documentation
-          </a>
-          <br />
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
         </v-card-text>
-        <v-card-actions>
+        <v-card-actions class="mx-3 mb-8">
           <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire"> Continue </v-btn>
+          <v-btn color="primary" nuxt to="/rooms"> Show me the Rooms! </v-btn>
         </v-card-actions>
+
+        <v-card class="logo py-8 d-flex justify-space-around">
+          <NuxtLogo />
+          <VuetifyLogo />
+        </v-card>
       </v-card>
     </v-col>
   </v-row>
@@ -83,12 +72,5 @@
 <script>
 export default {
   name: 'IndexPage',
-
-  // async asyncData({ $fetch }) {
-  //   const rooms = await $fetch('v1/SocialMediaPosting');
-  //   console.log(rooms);
-
-  //   return { rooms };
-  // },
 };
 </script>
