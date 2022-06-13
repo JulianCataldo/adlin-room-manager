@@ -82,7 +82,7 @@ open http://localhost:3045
 - `./front/api/index.ts`
 - `./front/plugin/cms.ts`
 - `./front/pages/rooms.vue`
-- `./front/docker/\*`
+- `./front/docker/*`
 
 # 🧪  Live demo
 
