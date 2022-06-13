@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created": "2022-06-13T04:23:01.039Z",
+    "updated": "2022-06-13T06:11:03.440Z"
+  },
+  "address": "152 avenue de Malakoff, 75016 Paris, France",
+  "amenityFeature": ["Beamer", "TV", "PA Speakers", "Ethernet", "Wifi"],
+  "description": "<h3>About Bonnie and Smile Paris - Salle de réunion Africa</h3><p>This completely renovated room is the perfect place to organize your meetings. In a brand new corporate hotel and close to Porte Maillot, you will be welcomed by a dynamic and receptive team!</p><p>This 14-person room will perfectly meet your expectations thanks to its high-end technical equipment. Equiped with a Wipple touch screen, a video projector , you will be in the best position to carry out your meetings with either your customers or employees.</p><p>The team in place will be able to offer you an adapted catering service. You will also be able to benefit from the many services that the space can offer (impressions, coffee and tea, relaxation area, etc.)</p><p>Don’t wait any longer, contact us and organize a visit!</p>",
+  "floorSize": 50,
+  "isAccessibleForFree": true,
+  "leaseLength": 10,
+  "name": "Meeting Room / 14 pax / video projector",
+  "permittedUsage": "<p><span>Creative Meeting, Offsite Meeting, Team Meeting, Presentation, Strategy Meeting, Workshop, Hackathon, Screening, Interview, Seminar</span></p>",
+  "petsAllowed": true,
+  "publicAccess": true,
+  "smokingAllowed": true,
+  "x-rented": false
+}

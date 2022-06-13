@@ -1,5 +1,5 @@
 cms/paper-cms
-cms/.data
+# cms/.data
 
 .old/*
 .DS_Store

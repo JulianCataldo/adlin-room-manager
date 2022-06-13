@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "created": "2022-06-13T04:24:03.532Z",
+    "updated": "2022-06-13T06:28:35.228Z"
+  },
+  "address": " 55 avenue de Colmar, 92500 Rueil-Malmaison, Ile de france, France",
+  "amenityFeature": [
+    "Wifi",
+    "Ethernet"
+  ],
+  "floorSize": 50,
+  "isAccessibleForFree": false,
+  "maximumAttendeeCapacity": 28,
+  "name": "A welcoming place",
+  "permittedUsage": "<p><br></p>",
+  "petsAllowed": true,
+  "publicAccess": true,
+  "x-rented": true
+}

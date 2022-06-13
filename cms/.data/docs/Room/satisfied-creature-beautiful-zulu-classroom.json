@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "created": "2022-06-13T04:22:03.998Z",
+    "updated": "2022-06-13T06:20:16.451Z"
+  },
+  "address": "34 avenue des Champs Elysées, 75008 Paris, France",
+  "amenityFeature": ["Beamer", "Ethernet", "Snacks"],
+  "description": "<h3>About Cosy Meeting Center Paris - Salle Craie</h3><p>What began as a pure meeting room \"Salle Craie \" in the heart of Pariss, has now grown into an accommodation for creative event formats. The concept of the location impresses with authentic furniture and an inviting ambience. Salle Craie is especially suitable for an offsite meeting, for an interview or for a workshop.</p><p>The different rooms make the location perfect for group work.</p><p>The flexible seating options can be customized, depending on the scale of your event. Impress your guests with the high-quality sound system. In addition to the usual inventory, you are also offered professional lecture equipment with projector and screen. We have also thought of whiteboards - you can simply book these as well. Thanks to the large windows, the room is particularly bright and very inviting. In addition, an adjoining balcony offers further space for your guests. With various areas, inside as well as outside, you will always find the right setting for your ideas: Whether indoors or outdoors. If you want another break area, this space is well suited, because it has an additional breakout room.</p><p>Paris-Nord station, for example, is the nearest major train station at a distance of only about 4.65 km.</p><p>Our professional team at Salle Craie is always available to help you with your planning.</p>",
+  "floorSize": 89,
+  "maximumAttendeeCapacity": 15,
+  "name": "Offsite meetings, job interviews & co in professional meeting room",
+  "permittedUsage": "<p>Creative Meeting, Offsite Meeting, Team Meeting, Workshop, Interview, Seminar</p>",
+  "petsAllowed": true,
+  "publicAccess": true,
+  "telephone": 9845099293,
+  "x-rented": false
+}

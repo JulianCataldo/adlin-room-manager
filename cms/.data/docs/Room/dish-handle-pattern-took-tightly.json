@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "created": "2022-06-13T04:20:39.069Z",
+    "updated": "2022-06-13T06:18:57.123Z"
+  },
+  "address": " Rue Sainte-Anne 7, 75001 Paris, France",
+  "amenityFeature": ["PA Speakers", "Snacks", "TV", "Wifi"],
+  "description": "<h3>About Cocoons Pyramides Paris - Anne</h3><p>With a capacity of 8 people, this training room is ideal for all your working sessions. The combo between the old and modern will immerse you in a pleasant and comfortable environment.&nbsp;</p><p>Composed of a working area and a breakout area, the room is also designed to have an enjoyable break. You will be able to use this space for a coaching session.&nbsp;</p><p>Change your working environment and benefit from the convenience and comfort of all this functional room can offer. The venue is perfect for off-site meetings&nbsp;</p><p>If you need a comfy space to enhance creativity and motivation, well you have found one!&nbsp;</p><p>Many types of equipment and catering options are possible: flipchart, beamer, two different type of lunches and many others</p><p>This bright and design cocoon is ideally located close to Pyramides metro station, surrounded by restaurants and café.&nbsp;</p><p>Transport :&nbsp;</p><p>• Metro : line 1 (Palais Royal Musée du Louvre), 7 (Pyramides) ou 14 (Pyramides)&nbsp;</p><p>• RER : Auber&nbsp;</p><p>• Bus : Palais Royal - Comédie Française 27, 39, 68, 95, Pyramides 21, 27, 81, 95</p>",
+  "leaseLength": 12,
+  "name": "Training Room for up to 8 people",
+  "permittedUsage": "<p><span>Creative Meeting, Client Meeting, Offsite Meeting, Team Meeting, Strategy Meeting, Group Work Session, Brainstorming, Workshop, Corporate Training, Coaching Session, Interview, Networking Event, Seminar</span></p>",
+  "petsAllowed": true,
+  "publicAccess": true,
+  "smokingAllowed": true,
+  "x-rented": false
+}

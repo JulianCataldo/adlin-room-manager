@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created": "2022-06-13T04:19:44.278Z",
+    "updated": "2022-06-13T06:28:16.735Z"
+  },
+  "amenityFeature": [
+    "Wifi",
+    "TV",
+    "Snacks"
+  ],
+  "description": "<p>Our conference room can accommodate up to 8 people. It is fully equipped with a large flat screen for digital presentations and a paperboard/whiteboard. Our price includes unlimited coffee, tea, water and 500MB/s fiber optic wifi.</p><p>Collaborate, create, inspire and innovate in an environment designed for professionnal use</p>",
+  "floorSize": 123,
+  "maximumAttendeeCapacity": 33,
+  "name": "Conference room in Montorgueil for 8 peoples",
+  "permittedUsage": "<p><span>Creative Meeting, Offsite Meeting, Team Meeting, Group Work Session, Brainstorming, Interview</span></p>",
+  "publicAccess": true,
+  "x-rented": true
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "created": "2022-06-13T04:16:44.017Z",
+    "updated": "2022-06-13T06:17:46.084Z"
+  },
+  "address": "599 Broadway, FL 9  New York, NY 10012",
+  "amenityFeature": [
+    "Beamer",
+    "Snacks",
+    "Wifi",
+    "PA Speakers",
+    "Ethernet",
+    "TV"
+  ],
+  "description": "<p>Showroom products on display include:&nbsp;</p><p><br></p><ul><li>Phone Booth</li><li>Meeting Room</li><li>Focus Room</li><li>Room for Zoom</li><li>Limited Edition Phone Booth&nbsp;</li><li>Work From Home Desk</li></ul>",
+  "floorSize": 40,
+  "leaseLength": 2,
+  "maximumAttendeeCapacity": 12,
+  "name": "Majestic Space",
+  "permittedUsage": "<p><span>For your safety and ours, and in accordance with NYS mandates, we’re requiring all visitors show proof of vaccination upon entrance to our Showroom. In addition, all guests will be required to wear a face mask for the duration of their visit, despite vaccination status.&nbsp;</span></p><p><br></p><p><span>ROOM </span><strong>limits</strong><span> the number of showroom bookings for residential requests as we have restrictions on home deliveries. Please&nbsp;</span><a href=\"https://room.com/pages/contact-sales\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: var(--primary-color,rgb(0,105,255));\">contact sales</a><span>&nbsp;if you have a question surrounding residential deliveries.</span></p>",
+  "petsAllowed": true,
+  "publicAccess": true,
+  "smokingAllowed": true,
+  "telephone": 98989998899,
+  "x-rented": false
+}

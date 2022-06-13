@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "created": "2022-06-13T04:18:58.583Z",
+    "updated": "2022-06-13T06:30:12.845Z"
+  },
+  "address": "Boulevard Saint-Denis 2, 75010 Paris, Île-de-France, France ",
+  "amenityFeature": [
+    "Beamer",
+    "Snacks"
+  ],
+  "description": "<h3>About Cocoon Saint-Denis Paris - Saint-Denis</h3><p>Located on the first floor of a beautiful building in the 10th arrondissement of Paris, this training room will be ideal for your next offsite meetings.</p><p>The venue is bright and functional, you will find everything you need for your presentations, coaching session or brainstorming. Two atmospheres are combined in the training room: a formal and professional atmosphere around a large table, and a warming atmosphere with the sofas area where you can relax.</p><p>We offer the possibility to add additional services such as paperboard, beamer even change the disposition of the furniture or catering. If you want to bring your own food, no worries! Just leave the space as clean as it was we you enter it.&nbsp;</p><p>Extras on request for your day reservation from Monday to Friday:</p><p>&nbsp;- Personalized assistance on site to help you with electronic equipment (free)</p><p>To take advantage of these extras, thank you for informing us 2 working days before your reservation.</p>",
+  "floorSize": 49,
+  "maximumAttendeeCapacity": 20,
+  "name": "Bright and functional training room in the 10th arrondissement",
+  "permittedUsage": "<p>Creative Meeting, Client Meeting, Offsite Meeting, Team Meeting, Strategy Meeting, Group Work Session, Brainstorming, Workshop, Corporate Training, Coaching Session, Interview, Networking Event, Seminar</p>",
+  "publicAccess": true,
+  "x-rented": true
+}
