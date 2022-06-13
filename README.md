@@ -19,6 +19,19 @@ Made for showing of skills to  🧬  **ADLIN Science** team   👀
 
 ---
 
+- [Quick start with ⚙️ Make + 🐳 Docker Compose](#quick-start-with-️-make---docker-compose)
+  - [✅  Pre-requisites](#pre-requisites)
+  - [🏁  Start command](#start-command)
+  - [Developer onboarding](#developer-onboarding)
+- [🧪  Live demo](#live-demo)
+  - [Private CMS back office](#private-cms-back-office)
+  - [Public app front end](#public-app-front-end)
+- [ℹ️  Project insights](#ℹ️project-insights)
+  - [Architecture](#architecture)
+  - [Application preview (videos)](#application-preview-videos)
+
+---
+
 # Quick start with ⚙️ Make + 🐳 Docker Compose
 
 ## ✅  Pre-requisites
